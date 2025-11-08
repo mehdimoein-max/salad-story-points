@@ -3,6 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: ["main"]
+  workflow_dispatch:
 
 # حداقل مجوزهای لازم
 permissions:
@@ -11,7 +12,7 @@ permissions:
   id-token: write
   actions: read
 
-# از تداخل دیپلوی‌ها جلوگیری می‌کند
+# جلوگیری از تداخل دیپلوی‌ها
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -26,16 +27,16 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 18   # یا 20 اگر خواستی LTS جدید
           cache: "npm"
 
       - name: Install deps
-        run: npm ci
+        run: npm ci || npm install
 
       - name: Build
         run: npm run build
 
-      # برای SPA fallback (ایمنی اضافه؛ با HashRouter معمولاً نیاز نیست)
+      # برای SPA fallback (اضافی اما ایمن؛ با HashRouter معمولاً لازم نیست)
       - name: Create SPA fallback (optional but safe)
         run: cp dist/index.html dist/404.html
 
