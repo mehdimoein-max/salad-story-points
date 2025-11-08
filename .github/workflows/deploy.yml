@@ -4,12 +4,14 @@ on:
   push:
     branches: ["main"]
 
+# حداقل مجوزهای لازم
 permissions:
   contents: read
   pages: write
   id-token: write
-  actions: read   # لازم برای deploy-pages@v4
+  actions: read
 
+# از تداخل دیپلوی‌ها جلوگیری می‌کند
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -18,14 +20,27 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 18
           cache: "npm"
-      - run: npm ci
-      - run: npm run build
-      - uses: actions/upload-pages-artifact@v3   # ← نسخه جدید
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      # برای SPA fallback (ایمنی اضافه؛ با HashRouter معمولاً نیاز نیست)
+      - name: Create SPA fallback (optional but safe)
+        run: cp dist/index.html dist/404.html
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
 
@@ -36,5 +51,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/deploy-pages@v4           # ← نسخه جدید و سازگار با v3 بالا
+      - name: Deploy to Pages
         id: deployment
+        uses: actions/deploy-pages@v4
