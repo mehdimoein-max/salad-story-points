@@ -1,73 +1,137 @@
-# Welcome to your Lovable project
+<p align="center">
+  <img src="./assets/pmpiran-logo.png" alt="PMPiran Logo" width="140"/><br/>
+  <b>PMPiran</b>
+</p>
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/d1813789-71d6-4e5d-b5e8-6b96789a775f
+<p align="center">
+  <img src="./assets/demo.png" alt="Demo Screenshot" width="600"/>
+</p>
 
-## How can I edit this code?
+<h1 align="center">🍓🥝 پلنینگ پوکر - سالاد میوه 🍍🍇</h1>
 
-There are several ways of editing your application.
+<p align="center">
+یک ابزار چابک، خوشمزه و متفاوت برای تخمین استوری پوینت‌ها! <br/>
+تقدیم از <b>PMPiran</b> به تیم‌های اسکرام، مدیران پروژه و عاشقان چابک!
+</p>
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d1813789-71d6-4e5d-b5e8-6b96789a775f) and start prompting.
+## 🧠 معرفی
 
-Changes made via Lovable will be committed automatically to this repo.
+«پلنینگ پوکر - سالاد میوه» یک ابزار ساده، سرگرم‌کننده و کاربردی برای تیم‌های اسکرام است که به شما کمک می‌کند تخمین استوری‌پوینت‌ها را با **تعامل بیشتر، فضای دوستانه‌تر و کمی طعم سالاد میوه 🍓** انجام دهید!
 
-**Use your preferred IDE**
+مناسب برای:
+- مدیران پروژه و اسکرام‌مسترها
+- تیم‌های توسعه نرم‌افزار و چابک
+- تسهیل‌گران جلسه Planning
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+دمو آنلاین ✅  
+🔗 **https://mehdimoein-max.github.io/salad-story-points/**
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## ✨ ویژگی‌ها
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- 🍉 محیط سرگرم‌کننده با تم سالاد میوه
+- ⚡ سریع، سبک و بدون نیاز به نصب
+- 📱 قابل استفاده روی موبایل و دسکتاپ
+- 🔐 بدون نیاز به لاگین
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🚀 نحوه استفاده در تیم اسکرام
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+1. جلسه Planning را شروع کنید  
+2. اعضا داستان را خوانده و مخفیانه امتیاز می‌دهند  
+3. با یک کلیک امتیازها نمایش داده می‌شوند  
+4. اگر اختلاف زیاد بود → بحث، جمع‌بندی، دوباره رأی‌گیری  
 
-**Edit a file directly in GitHub**
+> *توصیه:* هر از گاهی کمی آبلیموی مدیریتی هم روی سالاد بریزید تا طعم تصمیم‌ها بهتر شود! 🍋😉
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🧑‍💼 درباره سازنده
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+این پروژه با عشق، چاشنی خلاقیت و کمی نمک پروژه‌ای توسط:
 
-## What technologies are used for this project?
+**Mehdi Moein**  
+CEO of **PMPiran**
 
-This project is built with:
+🔗 LinkedIn:  
+[https://www.linkedin.com/in/mehdi-moein/](https://www.linkedin.com/in/mehdi-moein/)  
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Mehdi%20Moein-blue?logo=linkedin)](https://www.linkedin.com/in/mehdi-moein/)
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/d1813789-71d6-4e5d-b5e8-6b96789a775f) and click on Share -> Publish.
+## 🏢 درباره PMPiran
 
-## Can I connect a custom domain to my Lovable project?
+PMPiran مرجع آموزش، مشاوره و ارائه راهکارهای مدیریت پروژه و چابک در ایران است.  
+برای آشنایی بیشتر با خدمات ما، به وب‌سایت رسمی مراجعه کنید:
 
-Yes, you can!
+🌐 https://pmpiran.com
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+# 🇬🇧 English Version
+
+<p align="center">
+  <img src="./assets/pmpiran-logo.png" alt="PMPiran Logo" width="140"/><br/>
+  <b>PMPiran</b>
+</p>
+
+<h1 align="center">🍓🥝 Planning Poker - Fruit Salad 🍍🍇</h1>
+
+This is a fun, lightweight and Agile-friendly Planning Poker tool designed to help Scrum teams estimate Story Points with a more engaging & enjoyable experience — with a fruity twist!
+
+✅ Live Demo:  
+https://mehdimoein-max.github.io/salad-story-points/
+
+---
+
+## ⭐ Features
+
+- Fun & colorful fruit-themed UI
+- Lightweight – no login required
+- Works on desktop & mobile
+- Scrum-friendly flow
+
+---
+
+## 🧠 How to Use in Scrum
+
+1. Start your Planning Meeting  
+2. Team members vote silently  
+3. Reveal the points together  
+4. Discuss gaps and vote again if needed  
+
+A tiny slice of “PM lemon juice” always improves the flavor of decisions 🍋😉
+
+---
+
+## 👤 Author
+
+Built with passion and creativity by:
+
+**Mehdi Moein**  
+CEO of **PMPiran**
+
+LinkedIn:  
+[https://www.linkedin.com/in/mehdi-moein/](https://www.linkedin.com/in/mehdi-moein/)  
+
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Mehdi%20Moein-blue?logo=linkedin)](https://www.linkedin.com/in/mehdi-moein/)
+
+---
+
+## 🏢 About PMPiran
+
+PMPiran is a leading Iranian provider of Project Management training, consulting and Agile solutions.
+
+🌍 https://pmpiran.com
+
+---
+
